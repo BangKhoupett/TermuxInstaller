@@ -1,7 +1,5 @@
-apt update && apt upgrade -y
-apt install git
-apt install wget
-apt install proot
+#!/bin/bash
+
 clear
 
 apt install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++
